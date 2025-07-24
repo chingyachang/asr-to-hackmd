@@ -28,7 +28,7 @@ macOS 通常內建 Python，但建議安裝最新版本並使用 Homebrew 進行
 
 ```bash
 # 安裝 Homebrew (如果尚未安裝)
-/bin/bash -c "$(curl -fsSL [https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh](https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh))"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # 安裝 Python 3
 brew install python
