@@ -57,10 +57,10 @@ pip3 install websockets requests python-dotenv sounddevice numpy
 
 您需要以下兩個 API 金鑰及一個 HackMD 筆記 ID：
 
-  * **雅婷語音轉文字服務 API 金鑰 (Yating ASR API Key)**：從台灣人工智慧實驗室的雅婷語音轉文字服務平台申請。
+  * **雅婷語音轉文字服務 API 金鑰 (Yating ASR API Key)**：從台灣人工智慧實驗室的[雅婷語音轉文字服務平台](https://developer.yating.tw/zh-TW/doc/asr-ASR%20%E5%8D%B3%E6%99%82%E8%AA%9E%E9%9F%B3%E8%BD%89%E6%96%87%E5%AD%97)申請。
   * **HackMD API Token**：登入您的 HackMD 帳號，前往 `設定` -\> `整合應用` -\> `個人存取令牌`，生成一個具有 `write` 權限的 Token。
   * **HackMD 筆記 ID**：打開您希望同步文字的 HackMD 筆記，網址中的末端路徑即為筆記 ID (例如：`https://hackmd.io/@username/NOTE_ID` 中的 `NOTE_ID`)。
-[雅婷語音轉文字服務 API 金鑰](https://developer.yating.tw/zh-TW/doc/asr-ASR%20%E5%8D%B3%E6%99%82%E8%AA%9E%E9%9F%B3%E8%BD%89%E6%96%87%E5%AD%97)
+
 ### 5\. 配置 `.env` 環境變數檔案
 
 在您的專案根目錄下（與 `main.py` 同一層），創建一個名為 `.env` 的檔案，並填入您取得的金鑰和筆記 ID：
